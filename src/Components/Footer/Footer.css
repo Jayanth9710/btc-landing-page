@@ -23,6 +23,7 @@ font-weight: 600;
 font-size: 14px;
 line-height: 21px;
 margin-bottom: 5px;
+cursor: pointer;
 }
 
 .list{
@@ -93,6 +94,7 @@ width: 50%;
 
 .social-icon{
     margin-right: 12px;
+    cursor: pointer;
 }
 
 .world-footer{
