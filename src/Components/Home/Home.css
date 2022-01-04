@@ -151,7 +151,7 @@ margin-left: 2px;
 
 }
 
-@media (min-width:400px) {
+@media (min-width:370px) {
     .home__left{
         width: 360px;
     }
