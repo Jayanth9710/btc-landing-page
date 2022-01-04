@@ -151,7 +151,7 @@ margin-left: 2px;
 
 }
 
-@media (min-width:370px) {
+/* @media (min-width:370px) {
     .home__left{
         width: 360px;
     }
@@ -189,4 +189,4 @@ margin-left: 2px;
     .home_bg{
         margin-top: -120px;
     }
-}
+} */
