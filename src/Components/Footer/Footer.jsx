@@ -5,7 +5,7 @@ function Footer() {
   return (
     <div className="footer__page">
       <div className="footer-list row">
-        <div className="col-3 footer-group">
+        <div className="col-xxl-3 col-xs-6 footer-group">
           <ul className="about-list">
             <li>About</li>
             <li>Contact</li>
@@ -15,7 +15,7 @@ function Footer() {
             <li>Bt Tokens</li>
           </ul>
         </div>
-        <div className="col-3 footer-group">
+        <div className="col-xxl-3 col-xs-6 footer-group">
           <ul className="about-list">
             <li>Help </li>
             <li>Customer Support</li>
@@ -23,7 +23,7 @@ function Footer() {
             <li>Guides</li>
           </ul>
         </div>
-        <div className="col-3 footer-group">
+        <div className="col-xxl-3 col-xs-12 footer-group">
           <ul className="about-list">
             <li>Developers</li>
             <li>Github</li>
@@ -33,13 +33,13 @@ function Footer() {
             <li>Careers</li>
           </ul>
         </div>
-        <div className="col-3 footer__brand">
+        <div className="col-xxl-3 col-xs-12 footer__brand">
           <img className="footer__logo" src="Logo.png"></img>
           <span className="footer__logo_brand">BT Swap</span>
         </div>
       </div>
       <div className="footer-bottom row">
-          <div className="col-9">
+          <div className="col-xxl-9 col-xs-12">
           <span className="online">Online Store</span>
           <div className="social-media-icons">
           <i class="fab fa-twitter social-icon"></i>
@@ -52,7 +52,7 @@ function Footer() {
           <img src="Worldfooter.svg" className="world-footer"></img>
           <span className="footer-language">EN</span>
           </div>
-          <div className="col-3">
+          <div className="col-xxl-3 col-xs-12">
           <img src="bootomlogo.svg"></img>
           <span className="footer-balance">$12.13</span>
 

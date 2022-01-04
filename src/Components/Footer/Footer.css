@@ -137,3 +137,16 @@ outline: none;
 margin-left: 25px;
 }
 
+@media(min-width:360px) {
+    .footer__page{
+        display: flex;
+        flex-direction: column;
+        padding-top: 20px;
+    }
+
+    /* .footer-list{
+        display: grid !important;
+       grid-template-columns: 1fr 1fr;
+       
+    } */
+}

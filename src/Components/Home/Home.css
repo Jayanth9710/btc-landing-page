@@ -20,7 +20,7 @@
 .home__right{
 width: 70%;
 float: right;
-margin-right: 55px;
+margin-right: 30px;
     display: flex;
     justify-content: end;
     margin-top: 100px;
@@ -108,4 +108,45 @@ margin-left: 2px;
     z-index: 3;
     position: absolute;
     object-fit: cover;
+}
+
+@media (max-width:360px) {
+    .home__left{
+        width: 360px;
+    }
+
+    .home__title{
+        margin-left: -186px;
+        font-size: 30px;
+        width: 360px;
+    }
+
+    .desc{
+        font-size: 15px;
+        margin-left: -180px;
+        width: 300px;
+    }
+
+    .button-group{
+        margin-left: -180px;
+    }
+
+    .home__background{
+        width: 360px;
+        height: 200px;
+    }
+
+    .home__right{
+        margin-top: 530px;
+        margin-left: 10px;
+    }
+
+    .bitcoins{
+        width: 100vw;
+    }
+
+    .home_bg{
+        margin-top: -120px;
+    }
+
 }
