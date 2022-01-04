@@ -13,8 +13,8 @@ function Home() {
                     <button className='trade'>Trade Now</button>
                 </div>
             </div>
-            <div className="  home__right">
-                <img className=' col-xxl-10 col-sm-12 col-md-12 col-xs-12  bitcoins' src='BTC.png'></img>
+            <div className=" col-xxl-10 col-sm-12 col-md-12 col-xs-12 home__right">
+                <img className='   bitcoins' src='BTC.png'></img>
                 
             </div>
             
