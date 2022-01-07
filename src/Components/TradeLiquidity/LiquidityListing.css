@@ -6,7 +6,7 @@
 }
 
 .liquidity__list__box{
-    margin-top: 200px;
+    margin-top: 80px;
     background: #24213E;
 border-radius: 10px;
 width: 281px;
@@ -14,7 +14,7 @@ height: 235px;
 }
 
 .title{
-    font-family: Poppins;
+    font-family: 'Poppins';
 font-style: normal;
 font-weight: bold;
 font-size: 14px;

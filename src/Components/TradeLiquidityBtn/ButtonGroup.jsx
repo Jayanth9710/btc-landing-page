@@ -1,12 +1,17 @@
 import React from 'react';
-import './ButtonGroup.css'
+import './ButtonGroup.css';
+import {Link, NavLink} from 'react-router-dom';
 
 function ButtonGroup() {
     return (
         <div className="title__btns">
-        <button className="exc-btn">Exchange</button>
+          <NavLink activeClassName='active-link' to='/trade' >
+        Exchange
+        </NavLink>
         <hr className="btn_border"></hr>
-        <button className="liq-btn">Liquidity</button>
+        <NavLink activeClassName='active-link' to='/liquidity' >
+        Liquidity
+        </NavLink>
         <hr className="btn_border"></hr>
       </div>
     )

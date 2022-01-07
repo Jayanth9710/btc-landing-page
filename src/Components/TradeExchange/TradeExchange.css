@@ -6,7 +6,7 @@
   border: 1px solid;
 }
 
-.title__btns {
+/* .title__btns {
   padding-top: 134px;
   padding-left: 630px;
   padding-right: 732px;
@@ -39,6 +39,9 @@ border-width: 50%;
   line-height: 27px;
   margin-right: 12px;
   font-family: "Poppins";
+  color: #9a6aff;
+  border-bottom: 2px solid #9a6aff; 
+border-width: 50%;
 }
 
 .liq-btn {
@@ -48,7 +51,7 @@ border-width: 50%;
   font-size: 18px;
   line-height: 27px;
   margin-top: -5px;
-}
+} */
 
 /* .btn_border{
     position: absolute;
@@ -82,17 +85,17 @@ height: 0px;
   width: 732px !important;
   height: 482px;
   left: 201px;
-  top: 286px;
+  top: 180px;
 }
 
 .buy {
   background: #24213e;
-  border-radius: 10px;
+  border-radius: 10px; 
   position: absolute;
   width: 281px;
   height: 482px;
   left: 973px;
-  top: 286px;
+  top: 180px;
 }
 
 .buy__navbar {

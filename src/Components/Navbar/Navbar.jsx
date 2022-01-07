@@ -1,5 +1,6 @@
 import React from "react";
 import "./Navbar.css";
+import {Link} from 'react-router-dom';
 
 function Navbar() {
   return (
@@ -22,11 +23,13 @@ function Navbar() {
         </button>
         <div class="collapse navbar-collapse" id="navbarText">
           <ul class="navbar-nav mr-auto nav-list">
+          <Link exact to='/trade' className="navlink">
             <li class="nav-item active">
               <a class="nav-link" href="#">
                 Trade
               </a>
             </li>
+            </Link>
             <li class="nav-item">
               <a class="nav-link" href="#">
                 Earn
