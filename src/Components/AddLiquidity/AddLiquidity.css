@@ -20,6 +20,12 @@
   top: 230px;
 }
 
+.inp__choose__1{
+    background: none;
+    border: none;
+    outline: none;
+}
+
 .liquidity__navbar{
     display: flex;
   margin-top: 25px;
@@ -34,6 +40,7 @@
     color: #9a6aff;
     display: flex;
     justify-content: center;
+    margin-left: 10px;
 }
 
 .liq_nav__title{

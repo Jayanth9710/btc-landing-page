@@ -2,7 +2,7 @@ import React from "react";
 import HelpIcon from "../HelpIcon/HelpIcon";
 import ButtonGroup from "../TradeLiquidityBtn/ButtonGroup";
 import "./LiquidityListing.css";
-import {Link} from 'react-router-dom';
+import {NavLink} from 'react-router-dom';
 
 function LiquidityListing() {
   return (
@@ -27,7 +27,9 @@ function LiquidityListing() {
             </div>
           </div>
           <span className="tagline">Remove liquidity to receive tokens back</span>
+          <NavLink activeClassName='active-link' to='/add' >
           <button className="trade__wallet"><span className="add"><i class="fas fa-plus"></i></span>Add Liquidity</button>
+          </NavLink>
         </div>
       </div>
       </div>
